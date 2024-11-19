@@ -13,8 +13,8 @@
 * **Frontend:** Streamlit<br>
 * **Backend:** Python<br>
 * **NLP:** OpenAI API or similar language models for text-based interaction.<br>
-* **Real-time Processing:** Instantaneous interaction with the document content.<br>
-* **Text Processing:** PyPDFLoader and other Python libraries for text extraxtion.<br>
+* **Real-time Processing:** Instantaneous interaction with the text content.<br>
+* **Text Processing:** Open AI and other Python libraries for data extraxtion.<br>
 
 ## Getting Started
 ### Prerequisites
