@@ -1,13 +1,6 @@
 # financial_data_extraction_using_LLM
- 
-### Financial Data Extraction Tool Using OpenAI API
 
-
-https://git-scm.com/downloads
-https://platform.openai.com/settings/profile?tab=api-keys
-
-
-The **Financial Data Extraction** tool is a streamlit based app that uses openai api to extract key financial measures such as company name, stock symbol, revenue, net income etc. from a news article. The news article is typically an article about company's finance reporting.<br>
+*The **Financial Data Extraction** tool is a streamlit based app that uses openai api to extract key financial measures such as company name, stock symbol, revenue, net income etc. from a news article. The news article is typically an article about company's finance reporting.*<br>
 
 ![alt text](assets/image.png)
 
