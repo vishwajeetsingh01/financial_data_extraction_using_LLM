@@ -5,23 +5,21 @@
 ![alt text](assets/image.png)
 
 ## Features<br>
-* **PDF Upload:** Users can upload a PDF file to the app.<br>
-* **Interactive Chat:** Once the PDF is uploaded, users can chat with the app to extract relevant information, get summaries, or ask specific questions.<br>
-* **Text Extraction:** The app reads the content of the PDF and makes it searchable.<br>
-* **Contextual Responses:** The chatbot provides responses based on the content of the uploaded PDF.<br>
+* **Text Upload:** Users can paste a Text in input box.<br>
+* **Data Extraction:** Once the Text is pasted, users can extract relevant information in tabular format.<br>
+* **Contextual Responses:** Application provides responses based on the content of the pasted Text.<br>
 
 ## Technologies Used<br>
 * **Frontend:** Streamlit<br>
 * **Backend:** Python<br>
 * **NLP:** OpenAI API or similar language models for text-based interaction.<br>
 * **Real-time Processing:** Instantaneous interaction with the document content.<br>
-* **PDF Processing:** PyPDFLoader and other Python libraries for text extraxtion.<br>
-* **File Storage:** Chroma storage for PDFs.<br>
+* **Text Processing:** PyPDFLoader and other Python libraries for text extraxtion.<br>
 
 ## Getting Started
 ### Prerequisites
 * Python 3.11+<br>
-* Gradio (for frontend)<br>
+* Streamlit (for frontend)<br>
 * Dependencies (listed below)<br>
 
 ### Installation
@@ -43,7 +41,7 @@ pip install -r requirements.txt
 **Note:** You need to create an account on openai website. You will get inital 5$ free credits which is more than enough for this project. Once you get an api key from your account add it to .env file.
 
 5. Run the application:<br>
-python main.py
+streamlit run main.py
 
 Now, the app should be running on locally at http://127.0.0.1:7860/.
 
