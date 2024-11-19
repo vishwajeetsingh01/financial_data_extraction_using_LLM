@@ -1,2 +1,2 @@
-# finantial_data_extraction_using_LLM
+# financial_data_extraction_using_LLM
  
